@@ -1,0 +1,10 @@
+name: pull_request
+on:
+  pull_request:
+jobs:
+  hellohoge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Hoge
+        run: |
+          echo Hello Hoge
