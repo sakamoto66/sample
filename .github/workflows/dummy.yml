@@ -1,6 +1,7 @@
 name: dummy
 on:
   push:
+    branches: [ main ]
 jobs:
   helloworld:
     runs-on: ubuntu-latest
