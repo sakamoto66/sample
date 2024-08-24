@@ -1,1 +1,1 @@
-echo foo2
+echo foo
